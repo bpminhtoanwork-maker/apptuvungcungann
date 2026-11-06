@@ -1,0 +1,36 @@
+/* Hiệu ứng khung kính mờ (Glassmorphism) */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.78);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.tab-active {
+  border-bottom: 2px solid #818cf8;
+  color: #818cf8;
+  font-weight: 700;
+}
+
+#quiz-container {
+  transition: all 0.3s ease-in-out;
+}
+
+.hsk-filter-btn {
+  transition: all 0.2s ease;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(129, 140, 248, 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(129, 140, 248, 0.6);
+}
